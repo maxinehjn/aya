@@ -1,0 +1,28 @@
+@import "./_base.css";
+@import "./_layout.css";
+@import "./modules/_example.css";
+
+.logo-header {
+  background-color: pink;
+}
+
+.part-1-text-1 {
+  width: 600px;
+  position: relative;
+
+  left: 500px;
+}
+
+.part-1-img-1 {
+  width: 350px;
+  position: relative;
+  top: 250px;
+  right: -400px;
+}
+
+.part-1-img-2 {
+  width: 500px;
+  position: relative;
+  top: 500px;
+  left: -800px;
+}
