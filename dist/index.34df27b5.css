@@ -30,8 +30,43 @@ img, video {
 
 
 
-.logo-header {
-  background-color: pink;
+.header-rectangle-1 {
+  width: 200px;
+  height: 100px;
+  background-color: #2980b9;
+  border: 2px solid #2980b9;
+  display: block;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.header-rectangle-2 {
+  width: 200px;
+  height: 100px;
+  background-color: #2980b9;
+  border: 2px solid #2980b9;
+  align-items: flex-end;
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.characters {
+  height: 600px;
+  position: relative;
+  left: 400px;
+}
+
+.background-intro {
+  height: 800px;
+  content: "";
+  background-image: url("yopougon - fond.63d7ce50.png");
+  background-position: center;
+  background-size: 1600px;
+  border: 2px solid #2980b9;
+  display: block;
 }
 
 .part-1-text-1 {
@@ -52,6 +87,15 @@ img, video {
   position: relative;
   top: 500px;
   left: -800px;
+}
+
+.background-main-part-1 {
+  height: 800px;
+  content: "";
+  background-image: url("youpougon-jour-fond.4e625a00.png");
+  background-position: center;
+  background-size: 1600px;
+  display: block;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */

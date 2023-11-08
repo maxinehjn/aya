@@ -2,8 +2,43 @@
 @import "./_layout.css";
 @import "./modules/_example.css";
 
-.logo-header {
-  background-color: pink;
+.header-rectangle-1 {
+  width: 200px; /* Largeur du rectangle */
+  height: 100px; /* Hauteur du rectangle */
+  background-color: #2980b9;
+  border: 2px solid #2980b9; /* Bordure du rectangle (optionnelle) */
+  display: block;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.header-rectangle-2 {
+  width: 200px; /* Largeur du rectangle */
+  height: 100px; /* Hauteur du rectangle */
+  background-color: #2980b9;
+  border: 2px solid #2980b9; /* Bordure du rectangle (optionnelle) */
+  display: block;
+  align-items: flex-end;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.characters {
+  height: 600px;
+  position: relative;
+  left: 400px;
+}
+
+.background-intro {
+  height: 800px; /* Hauteur du rectangle */
+  border: 2px solid #2980b9; /* Bordure du rectangle (optionnelle) */
+  content: "";
+  display: block;
+  background-image: url("../../img/yopougon\ -\ fond.png");
+  background-position: center;
+  background-size: 1600px;
 }
 
 .part-1-text-1 {
@@ -25,4 +60,13 @@
   position: relative;
   top: 500px;
   left: -800px;
+}
+
+.background-main-part-1 {
+  height: 800px; /* Hauteur du rectangle */
+  content: "";
+  display: block;
+  background-image: url("../img/youpougon-jour-fond.png");
+  background-position: center;
+  background-size: 1600px;
 }
