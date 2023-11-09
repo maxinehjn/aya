@@ -28,17 +28,18 @@
 .characters {
   height: 600px;
   position: relative;
+  top: 216px;
   left: 400px;
 }
 
 .background-intro {
   height: 800px; /* Hauteur du rectangle */
-  border: 2px solid #2980b9; /* Bordure du rectangle (optionnelle) */
   content: "";
   display: block;
   background-image: url("../img/yopougon-fond.png");
   background-position: center;
   background-size: 1600px;
+  margin-top: -600px;
 }
 
 .part-1-text-1 {
@@ -112,4 +113,8 @@
   background-position: center;
   background-size: 1600px;
   margin-top: -600px;
+}
+
+.part-3-img-4 {
+  margin-top: -10px;
 }
