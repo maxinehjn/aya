@@ -30,11 +30,9 @@ img, video {
 
 
 
-.header-rectangle-1 {
+.logo {
   width: 200px;
   height: 100px;
-  background-color: #2980b9;
-  border: 2px solid #2980b9;
   display: block;
   position: fixed;
   top: 20px;

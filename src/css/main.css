@@ -2,11 +2,9 @@
 @import "./_layout.css";
 @import "./modules/_example.css";
 
-.header-rectangle-1 {
+.logo {
   width: 200px; /* Largeur du rectangle */
   height: 100px; /* Hauteur du rectangle */
-  background-color: #2980b9;
-  border: 2px solid #2980b9; /* Bordure du rectangle (optionnelle) */
   display: block;
   position: fixed;
   top: 20px;
