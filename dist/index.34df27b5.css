@@ -181,4 +181,16 @@ img, video {
   display: block;
 }
 
+.part-5 {
+  background-color: #000;
+  padding: 70px;
+}
+
+.part-5-text-1 {
+  width: 500px;
+  padding-bottom: 300px;
+  position: relative;
+  left: 500px;
+}
+
 /*# sourceMappingURL=index.34df27b5.css.map */

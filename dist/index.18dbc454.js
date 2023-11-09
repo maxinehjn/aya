@@ -535,6 +535,16 @@ function hmrAcceptRun(bundle, id) {
 var _gsap = require("gsap");
 var _scrollTrigger = require("gsap/ScrollTrigger");
 (0, _gsap.gsap).registerPlugin((0, _scrollTrigger.ScrollTrigger));
+(0, _gsap.gsap).to(".intro", {
+    scrollTrigger: {
+        trigger: ".intro",
+        start: "top top",
+        end: "bottom top",
+        scrub: true,
+        markers: true
+    },
+    backgroundPositionY: "40%"
+});
 
 },{"gsap":"fPSuC","gsap/ScrollTrigger":"7wnFk"}],"fPSuC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
