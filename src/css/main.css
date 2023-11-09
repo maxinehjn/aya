@@ -36,7 +36,7 @@
   border: 2px solid #2980b9; /* Bordure du rectangle (optionnelle) */
   content: "";
   display: block;
-  background-image: url("../../img/yopougon\ -\ fond.png");
+  background-image: url("../img/yopougon-fond.png");
   background-position: center;
   background-size: 1600px;
 }
@@ -69,4 +69,47 @@
   background-image: url("../img/youpougon-jour-fond.png");
   background-position: center;
   background-size: 1600px;
+  margin-top: -280px;
+}
+
+.part-img-1 {
+  margin-top: -10px;
+}
+
+.part-3-text-1 {
+  width: 600px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+.part-3-img-1 {
+  width: 600px;
+  position: relative;
+  top: 200px;
+  right: 100px;
+}
+
+.part-3-img-2 {
+  width: 600px;
+  position: relative;
+  top: 350px;
+  left: 200px;
+}
+
+.part-3-img-3 {
+  width: 600px;
+  position: relative;
+  top: 800px;
+  left: 200px;
+}
+
+.background-main-part-3 {
+  height: 1550px; /* Hauteur du rectangle */
+  content: "";
+  display: block;
+  background-image: url("../img/yopougon-soir-fond.png");
+  background-position: center;
+  background-size: 1600px;
+  margin-top: -600px;
 }
