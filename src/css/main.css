@@ -52,7 +52,18 @@
 
 .part-3 {
   position: relative;
-  top: 250px;
+  top: 810px;
+}
+
+.part-4 {
+  position: relative;
+  top: 1580px;
+}
+
+.part-5 {
+  background-color: black;
+  position: relative;
+  top: 1580px;
 }
 
 .part-1-text-1 {
@@ -79,7 +90,6 @@
 
 .background-main-part-1 {
   height: 100vh;
-  content: "";
   display: block;
   background-image: url("../img/youpougon-jour-fond.png");
   background-position: center;
@@ -117,7 +127,6 @@
 
 .background-main-part-3 {
   height: 1550px; /* Hauteur du rectangle */
-  content: "";
   display: block;
   background-image: url("../img/yopougon-soir-fond.png");
   background-position: center;
@@ -130,54 +139,79 @@
 }
 
 .part-4-text-1 {
-  width: 690px;
-  position: relative;
-  left: 500px;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 5%;
 }
 
 .part-4-img-1 {
-  width: 700px;
-  position: relative;
-  top: 200px;
-  right: 200px;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 5%;
 }
 
 .part-4-img-2 {
-  width: 500px;
-  position: relative;
-  top: 400px;
-  left: 100px;
+  width: 30%;
+  position: absolute;
+  left: 10%;
+  top: 30%;
 }
 
 .part-4-img-3 {
-  width: 600px;
-  position: relative;
-  top: 800px;
-  left: 350px;
+  width: 40%;
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
 }
 
 .background-main-part-4 {
   height: 1720px; /* Hauteur du rectangle */
-  content: "";
   display: block;
   background-image: url("../img/fond-nuit.png");
   background-position: center;
   background-size: 1600px;
-  margin-top: -810px;
-}
-
-.part-5 {
-  background-color: black;
-  padding: 70px;
+  margin-top: -815px;
 }
 
 .part-5-text-1 {
-  width: 500px;
-  position: relative;
-  left: 500px;
-  padding-bottom: 300px;
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  top: 5%;
+}
+
+.book-purchase {
+  width: 15%;
+  margin-left: 500px;
+}
+
+.logo-purchase {
+  width: 20%;
+  padding-bottom: 40px;
 }
 
 .text-purchase {
   color: white;
+  text-align: left;
+  font-size: 12px;
+  margin-left: 800px;
+  margin-top: -350px;
+}
+
+.button-purchse {
+  color: black;
+  background-color: white;
+  border: black;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+h1 {
+  width: 20&;
+}
+
+p {
+  font-size: 20;
 }
