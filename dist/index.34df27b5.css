@@ -51,83 +51,95 @@ img, video {
   right: 20px;
 }
 
-.characters {
-  height: 600px;
-  position: relative;
-  top: 216px;
-  left: 400px;
-}
-
-.background-intro {
-  height: 800px;
-  content: "";
+.intro {
+  height: 100vh;
   background-image: url("yopougon-fond.3bda27ea.png");
   background-position: center;
-  background-size: 1600px;
-  margin-top: -600px;
-  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.characters {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+.part-1 {
+  position: relative;
+  top: 250px;
+}
+
+.part-2 {
+  margin-top: -10px;
+  position: relative;
+  top: 250px;
+}
+
+.part-3 {
+  position: relative;
+  top: 250px;
 }
 
 .part-1-text-1 {
-  width: 600px;
-  position: relative;
-  left: 500px;
+  width: 50%;
+  position: absolute;
+  top: 15%;
+  left: 25%;
 }
 
 .part-1-img-1 {
-  width: 350px;
-  position: relative;
-  top: 250px;
-  right: -400px;
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  right: 10%;
 }
 
 .part-1-img-2 {
-  width: 500px;
-  position: relative;
-  top: 500px;
-  left: -800px;
+  width: 40%;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
 }
 
 .background-main-part-1 {
-  height: 800px;
+  height: 100vh;
   content: "";
   background-image: url("youpougon-jour-fond.4e625a00.png");
   background-position: center;
-  background-size: 1600px;
+  background-repeat: no-repeat;
   margin-top: -280px;
   display: block;
 }
 
-.part-img-1 {
-  margin-top: -10px;
-}
-
 .part-3-text-1 {
-  width: 600px;
-  position: relative;
-  top: 100px;
-  left: 100px;
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  left: 20%;
 }
 
 .part-3-img-1 {
-  width: 600px;
-  position: relative;
-  top: 200px;
-  right: 100px;
+  width: 40%;
+  position: absolute;
+  top: 11%;
+  right: 20%;
 }
 
 .part-3-img-2 {
-  width: 600px;
-  position: relative;
-  top: 350px;
-  left: 200px;
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
 }
 
 .part-3-img-3 {
-  width: 600px;
-  position: relative;
-  top: 800px;
-  left: 200px;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  right: 10%;
 }
 
 .background-main-part-3 {
@@ -191,6 +203,10 @@ img, video {
   padding-bottom: 300px;
   position: relative;
   left: 500px;
+}
+
+.text-purchase {
+  color: #fff;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */
