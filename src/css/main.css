@@ -9,18 +9,27 @@
   position: fixed;
   top: 20px;
   left: 20px;
+  z-index: 1;
 }
 
 .header-rectangle-2 {
-  width: 200px; /* Largeur du rectangle */
-  height: 100px; /* Hauteur du rectangle */
-  background-color: #2980b9;
-  border: 2px solid #2980b9; /* Bordure du rectangle (optionnelle) */
   display: block;
   align-items: flex-end;
   position: fixed;
   top: 20px;
   right: 20px;
+  z-index: 1;
+}
+
+.language ol {
+  list-style-type: none;
+  padding-left: 0;
+  z-index: 1;
+  color: white;
+}
+
+.crumb {
+  display: inline-block;
 }
 
 .intro {
@@ -102,6 +111,7 @@
   position: absolute;
   left: 20%;
   top: 10%;
+  z-index: 1;
 }
 
 .part-3-img-1 {
@@ -128,7 +138,7 @@
 .background-main-part-3 {
   height: 1550px; /* Hauteur du rectangle */
   display: block;
-  background-image: url("../img/yopougon-soir-fond.png");
+  background-image: url("../img/yopougon-soir-fond.png?as=webp");
   background-position: center;
   background-size: 1600px;
   margin-top: -600px;
@@ -143,6 +153,7 @@
   position: absolute;
   left: 30%;
   top: 5%;
+  z-index: 1;
 }
 
 .part-4-img-1 {
@@ -180,11 +191,23 @@
   position: absolute;
   left: 35%;
   top: 5%;
+  margin-top: 100px;
+}
+
+.slide {
+  height: 300px;
+  margin-top: 500px;
+}
+
+.purchase {
+  margin-top: 300px;
+  padding-bottom: 50px;
 }
 
 .book-purchase {
-  width: 15%;
+  width: 16%;
   margin-left: 500px;
+  margin-bottom: 10px;
 }
 
 .logo-purchase {
@@ -195,7 +218,7 @@
 .text-purchase {
   color: white;
   text-align: left;
-  font-size: 12px;
+  font-size: 10px;
   margin-left: 800px;
   margin-top: -350px;
 }
@@ -209,13 +232,21 @@
 }
 
 h1 {
-  width: 20&;
+  width: 32%;
 }
 
 p {
-  font-size: 20;
+  font-size: 20px;
 }
 
 footer {
   color: white;
+}
+
+hr {
+  margin-top: 200px;
+}
+
+.contacts {
+  margin: 50px;
 }
