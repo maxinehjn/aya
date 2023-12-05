@@ -137,7 +137,7 @@
 
 .background-main-part-3 {
   height: 1550px; /* Hauteur du rectangle */
-  /* display: block; */
+  display: block;
   background-image: url("../img/yopougon-soir-fond.png?as=webp");
   background-position: center;
   background-size: 1600px;
